@@ -25,3 +25,11 @@ where `uid` is the user id you wish to fetch all the pledges for.
 where `uid` is the user id <br/>
 where `pledge` is the pledge you wish to post <br/>
 and `co2` is the co2 saved by the pledge <br/>
+
+## FETCH total CO2 saved
+
+```
+/api/total/co2
+```
+
+will return json object with `saved_co2__sum` as the key and `total co2` as the value.
